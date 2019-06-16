@@ -4,7 +4,7 @@ def reverse_each_word(string)
   secondarray.each do |string|
     firstarray << string.reverse
   end
-secondarray.join
+secondarray.join(" ")
 end
 original_array = string.split(" ")
   return_array = []
