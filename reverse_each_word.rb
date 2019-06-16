@@ -1,6 +1,6 @@
 def reverse_each_word(string)
-  split_and_reverse = []
-  string.split 
+  firstarray = []
+  secondarray = string.split 
   string each do 
   split_and_reverse << 
 
