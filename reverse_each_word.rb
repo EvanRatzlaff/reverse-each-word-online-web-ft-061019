@@ -1,16 +1,16 @@
 def reverse_each_word(string)
-  secondarray = string.split(" ")
-  firstarray = []
-  secondarray.each do |string|
-    firstarray << string.reverse
+  array = string.split(" ")
+  newarray = []
+  array.each do |string|
+    newarray << string.reverse
   end
-firstarray.join(" ")
+newarray.join(" ")
 end
 def reverse_each_word(string)
-  secondarray = string.split(" ")
-  firstarray = []
-  secondarray.collect do |string|
-    firstarray << string.reverse
+  array = string.split(" ")
+  newarray = []
+  array.collect do |string|
+    newarray << string.reverse
   end
-firstarray.join(" ")
+newarray.join(" ")
 end
