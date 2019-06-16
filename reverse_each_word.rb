@@ -4,5 +4,5 @@ def reverse_each_word(string)
   firstarray.each do |string|
     secondarray << string.reverse
   end
-firstarray
+secondarray
 end
